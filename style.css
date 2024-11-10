@@ -1,0 +1,242 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+body > div {
+  max-width: 1080px;
+  margin: 5px;
+}
+
+header > div {
+  text-align: center;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ddd;
+  margin: 5px;
+}
+div{
+  text-align: center;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ddd;
+}
+h1 { 
+  color: white;
+  background-color: #1e9b24; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+
+  padding: 5px;
+  margin-top: 5px;
+  margin-inline: 5px;
+}
+
+h2 {
+  color: #070b13;
+  background-color: #45c96d;
+
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: left;
+
+  padding: 5px;
+  margin-top: 0px;
+}
+
+h3{
+  color: #070b13;
+  background-color: #45c96d;
+
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: left;
+
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.personal {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border:2px solid #615f5f;
+  padding: 5px;
+}
+.experience{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border:2px solid #615f5f;
+  padding: 5px; 
+}
+.fot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border:2px solid #615f5f;
+  padding: 5px;   
+}
+
+.introduccio{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border:2px solid #615f5f;
+  padding: 5px;   
+}
+.educacio{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border:2px solid #615f5f;
+  padding: 5px; 
+}
+.habilitat{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border:2px solid #615f5f;
+  padding: 5px; 
+}
+.portfoli{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border:2px solid #615f5f;
+  padding: 5px; 
+}
+.information {
+  width: 60%;
+}
+
+.information p{
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: 0 auto;
+  margin: 10px;
+}
+
+li {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: 3px solid #8fa9e4;
+}
+
+em {
+  font-weight: bold;
+  color: #131e3a;
+  display: block;
+  margin-top: 8px;
+}
+
+.profile-image img{
+    width: 15%; 
+    height: auto;
+    border-radius: 10%;
+    margin: left;
+    display: block;
+  }
+
+/*Links*/
+a{
+  color: rgb(66, 111, 207);
+  transition: color 0.2s ease;
+  text-align: center;
+}
+
+p{
+  text-align: left;
+  font-size: 14px;
+  margin: 10px auto; 
+}
+
+.introduccio2 p2{
+  text-align: left;
+  font-size: 20px; 
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #f9fbfe;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #029415;
+}
+
+.personal ul{
+  text-align: left;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #f9fbfe;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left:4px solid #029415;
+}
+
+.experience li{
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #f9fbfe;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #1de003; 
+}
+.experience strong{
+  font-size: 14px;
+  margin-right: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+.experience em{
+  font-size: 14px;  
+}
+.educacio ul{
+  text-align: left;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #f9fbfe;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border:4px solid #05b91d;  
+}
+
+.habilitat li{
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #f9fbfe;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #1de003;   
+}
+
